@@ -1,0 +1,7 @@
+[package]
+name = "rusty-redis"
+version = "6.2.5"
+edition = "2021"
+
+[dependencies]
+redis = "0.22.3"
