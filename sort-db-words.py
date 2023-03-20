@@ -63,7 +63,7 @@ word_freq = r.zrange('word_freq', 0, -1, withscores=True)
 end_t()
 get_t()
 # Temp work around for None type value.
-r.rem('word_freq', b'')
+r.zrem('word_freq', b'')
 end_t()
 # <---Testing--->
 '''
