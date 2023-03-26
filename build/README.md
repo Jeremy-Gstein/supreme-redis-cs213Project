@@ -2,7 +2,7 @@
 
 ## Run `docker compose up -d` 
 
-## if cache issued. remove hanging images with:
+## if cache problems persist. remove hanging images with:
 	`docker rmi archlinux:latest`
 
 # CMD for Redis container:
