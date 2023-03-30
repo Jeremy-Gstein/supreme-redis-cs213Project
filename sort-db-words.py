@@ -2,7 +2,7 @@ import redis
 import time
 
 # Connect to Redis (Input later, leave in code for now.)
-r = redis.Redis(host='10.0.0.22', port=6379, db=0)
+r = redis.Redis(host='localhost', port=6379, db=0)
 
 # Get all set keys starting with 'sets_'
 # Redis Data is stored as arbirarty len sentences of text.
