@@ -1,6 +1,8 @@
-## Make sure Redis DB is already running.
+## 1.  Make sure Redis DB is already running.
+### in ./build run the 'run-app.sh' script.
+## `./run-app.sh`
 
-## Run `docker compose up -d` 
+## 2.  Run `docker compose up -d` 
 
 ## if cache issued. remove hanging images with:
 	`docker compose build . --no-cache`
