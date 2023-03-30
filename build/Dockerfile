@@ -40,5 +40,5 @@ RUN cargo run ../SCD-1937.txt
 # Set working directory
 WORKDIR /opt/repository
 
-# Start application
-CMD ["python3", "sort-db-words.py"]
+# Run Python program to parse/sort text 
+RUN python3 sort-db-words.py
