@@ -2,12 +2,8 @@ import redis
 import time
 
 # Connect to Redis (Input later, leave in code for now.)
-<<<<<<< HEAD
-r = redis.Redis(host='0.0.0.0', port=6379, db=0)
-=======
-r = redis.Redis(host='localhost', port=6379, db=0)
->>>>>>> 9368f3d4a00de5c3aa7b5f5c89f1b42d9ec77899
 
+r = redis.Redis(host='0.0.0.0', port=6379, db=0)
 # Get all set keys starting with 'sets_'
 # Redis Data is stored as arbirarty len sentences of text.
 # Need to get ALL sets (set_N) / set_1, set_2..etc.
