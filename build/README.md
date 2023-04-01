@@ -1,3 +1,5 @@
+## NOTE: repo IPv4 is set to '10.0.0.22' (my test machine)
+##       This needs to be changed to 'localhost' for portability.
 ## 1.  Make sure Redis DB is already running.
 ### in ./build run the 'run-app.sh' script.
 ## `./run-app.sh`
