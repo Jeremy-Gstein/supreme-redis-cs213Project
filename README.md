@@ -11,3 +11,6 @@
 ### Frontend:
     - stdout as of now
     - app accessible via web browser using react or wasm. 
+---
+### Reminder:
+    - Localhost throws os error (duplicate port binding) make sure to find a way to fetch ipv4 of redis instance.
