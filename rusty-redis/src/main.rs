@@ -32,11 +32,8 @@ fn main() -> redis::RedisResult<()> {
         sets.push(current_set);
     }
 
-<<<<<<< HEAD
     let client = redis::Client::open("redis://0.0.0.0/")?;
-=======
-    let client = redis::Client::open("redis://localhost/")?;
->>>>>>> 9368f3d4a00de5c3aa7b5f5c89f1b42d9ec77899
+
     let mut conn = client.get_connection()?;
 
     for (i, set) in sets.iter().enumerate() {
