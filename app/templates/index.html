@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Top Scores</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 50%;
+			margin: 0 auto;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		table th {
+			background-color: #ddd;
+			border: 1px solid #ddd;
+			padding: 10px;
+		}
+		table td {
+			border: 1px solid #ddd;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>United States Supreme Court Decisions 1937-1975.</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Word</th>
+				<th>Frequency</th>
+			</tr>
+		</thead>
+		<tbody id="top-scores">
+		</tbody>
+	</table>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.getJSON("/top-scores", function(data) {
+				$.each(data, function(key, value) {
+					$("#top-scores").append("<tr><td>" + key + "</td><td>" + value + "</td></tr>");
+				});
+			});
+		});
+	</script>
+</body>
+</html>
+

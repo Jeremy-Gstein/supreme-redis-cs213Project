@@ -32,7 +32,7 @@ fn main() -> redis::RedisResult<()> {
         sets.push(current_set);
     }
 
-    let client = redis::Client::open("redis://10.0.0.22/")?;
+    let client = redis::Client::open("redis://10.0.0.59/")?;
 
     let mut conn = client.get_connection()?;
 
