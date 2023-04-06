@@ -1,7 +1,9 @@
 ## Repository for CS213 Final Project
-### A Database to sort unique words spoken by the Supreme court.
+#### A Database to sort unique words spoken by the United States Supreme Court.
+#### All Data was sourced from https://www.govinfo.gov/help/scd
+####  Data contains all US Supreme Court Decisions between 1937 and 1975.
 ---
-## This is a work in progress (=
+#### This is a work in progress (=
 ---
 ### Backend:
  - Redis Database as storage.
