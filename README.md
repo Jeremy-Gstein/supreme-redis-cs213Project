@@ -16,4 +16,4 @@
 ---
 ### Reminder:
  - Localhost throws os error (duplicate port binding) make sure to find a way to fetch ipv4 of redis instance.
- - When cloning repo, be sure to double check IP information at `./sort-db-words.py` and `./rusty-redis/srcmain.rs` 
+ - When cloning repo, be sure to double check IP information at `./sort-db-words.py` and `./rusty-redis/src/main.rs` 
