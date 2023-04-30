@@ -22,7 +22,7 @@ RUN git clone https://github.com/Jeremy-Gstein/supreme-redis-cs213Project /opt/r
 WORKDIR /opt/repository
 
 # Run Startup Script
-RUN tar xvf SCD-1937.txt.tar 
+RUN tar xvf ./data/SCD-1937.txt.tar 
 
 WORKDIR /opt/repository/rusty-redis
 
