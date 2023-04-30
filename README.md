@@ -2,7 +2,7 @@
 #### A Database to sort unique words spoken by the United States Supreme Court.
 #### All Data was sourced from https://www.govinfo.gov/help/scd
 ####  Data contains all US Supreme Court Decisions between 1937 and 1975.
-![image](https://user-images.githubusercontent.com/66806528/230662064-e2b3d639-0313-4028-a1b7-1b8feeb69fd7.png)
+![image](https://user-images.githubusercontent.com/66806528/235373556-2abc0584-2e53-42d2-a25c-9dee87ae1405.png)
 ---
 #### This is a work in progress (=
 ---
