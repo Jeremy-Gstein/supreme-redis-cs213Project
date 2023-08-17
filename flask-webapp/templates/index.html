@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Frequency</title>
+</head>
+<body>
+	<h1>Word Frequency</h1>
+		<form method="post" action="/search">
+		<input type="text" name="search_term" placeholder="Search word">
+		<input type="submit" value="Search">
+	</form>
+	{% if search_result %}
+	<p>Word: {{ search_result[0] }}</p>
+	<p>Frequency: {{ search_result[1] }}</p>
+	{% endif %}
+</body>
+</html>
+
