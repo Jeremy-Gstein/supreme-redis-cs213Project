@@ -12,8 +12,10 @@ def index():
 def search():
     if request.method == 'POST':
         search_term = request.form.get('search_term')
+        # Change redis search to lowercase but keep users input same.
         word_freq = redis_client.zscore('word_freq', search_term.lower())
-        return render_template('index.html', search_result=(search_term, word_freq))
+        # Cast word_freq as a int
+        return render_template('index.html', search_result=(search_term, int(word_freq)))
     return render_template('index.html')
 
 if __name__ == '__main__':
