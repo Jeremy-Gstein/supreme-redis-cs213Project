@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import redis
 
 app = Flask(__name__)
-redis_client = redis.Redis(host='localhost', port=6379, db=0)
+redis_client = redis.Redis(host='192.168.122.45', port=6379, db=0)
 
 @app.route('/')
 def index():
@@ -12,7 +12,7 @@ def index():
 def search():
     if request.method == 'POST':
         search_term = request.form.get('search_term')
-        word_freq = redis_client.zscore('word_freq', search_term)
+        word_freq = redis_client.zscore('word_freq', search_term.lower())
         return render_template('index.html', search_result=(search_term, word_freq))
     return render_template('index.html')
 
