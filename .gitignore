@@ -3,3 +3,5 @@ rusty-redis/Cargo.lock
 rusty-redis/redis-union/*
 rusty-redis/SCD-1937.txt
 rusty-redis/all-text.txt
+flask-webapp/__pycache__
+
