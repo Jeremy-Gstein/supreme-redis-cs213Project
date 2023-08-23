@@ -7,8 +7,8 @@
 <body>
 	<h1>Word Frequency</h1>
 		<form class="search" method="post" action="/search">
-		<input class="search" type="text" name="search_term" placeholder="Search word">
-		<button class="search" type="submit" value="Search"/>
+		<input class="search" type="text" name="search_term" placeholder="Search Word">
+		<button type="submit" value="Search"> submit </button>
 	</form>
 	{% if search_result %}
 	<p>Word: {{ search_result[0] }}</p>
