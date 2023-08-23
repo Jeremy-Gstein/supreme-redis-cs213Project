@@ -1,5 +1,0 @@
-# todo
-right now if a user searches:
-  - nothing
-  - somthing that does not exist
-the server throws error.
