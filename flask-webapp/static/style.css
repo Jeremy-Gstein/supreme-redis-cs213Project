@@ -20,7 +20,7 @@ h1 {
 
 /* css from w3schools  */
 input[type=text] {
-  padding: 12px 32px;
+  padding: 12px 24px;
   width: 100px;
   font-size: 16px; 
   -webkit-transition: width 0.4s ease-in-out;
@@ -30,20 +30,24 @@ input[type=text] {
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
   width: 10%;
+  box-shadow: 3px 3px black;
 }
 
 button {
-  	background-color: #ddd;
-  	border: none;
+  	background-color: white;
   	color: black;
-  	padding: 12px 38px;
+  	padding: 10px 12px;
   	text-align: center;
   	font-size: 16px;
   	margin: 8px 4px;
   	transition: 0.3s;
+	box-shadow: 3px 3px black;
+	border-radius: 12px;
+	border: 2px solid #4CAF50;
 }
 
 button:hover {
 	background-color: #3e8e41;
+	box-shadow: 0px 0px;
   	color: white; 
 }
