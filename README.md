@@ -13,7 +13,10 @@
 ---
 ### Frontend:
  - Redis Stack Web based or application GUI. `http://localhost:8001` or `redis://localhost:6379`
- - (python-webapp branch only) [Work in Proggress] - Return top 10 scores in word_freq sorted set and display in browser.
+ - a Flask application to search the redis DB for scores.
+---
+### Research Paper:
+ - todo (^:
 ---
 ### Reminder:
  - Localhost throws os error (duplicate port binding) make sure to find a way to fetch ipv4 of redis instance.
