@@ -14,6 +14,7 @@
 ### Frontend:
  - Redis Stack Web based or application GUI. `http://localhost:8001` or `redis://localhost:6379`
  - a Flask application to search the redis DB for scores.
+ ![image](https://github.com/Jeremy-Gstein/supreme-redis-cs213Project/assets/66806528/3b8a6705-bb26-4a48-844d-a6e582317ae8)
 ---
 ### Research Paper:
  - todo (^:
