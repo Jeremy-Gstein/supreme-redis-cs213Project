@@ -21,7 +21,8 @@ def search():
             f_word_freq = "N/A"
         # format word_freq to have no decimal values.
         return render_template('index.html', search_result=(search_term, f_word_freq))
-    return render_template('index.html')
+    # Removeing to test if making page reload.
+    #return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

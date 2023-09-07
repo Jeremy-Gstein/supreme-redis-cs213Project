@@ -3,7 +3,8 @@ body {
 }
 
 p {
-	text-align: center
+	text-align: center;
+	color: white;
 }
 
 head {
@@ -34,34 +35,26 @@ div {
 	align-items: center;
 }
 
-@-webkit-keyframes my-header {
-    from{
-    -webkit-transform: rotate(0deg);
-    }
-    to{
-    -webkit-transform: rotate(360deg);
-    }
-}
-
-
 .my-header {
 	color: white;
-	-webkit-animation: my-header 2s linear infinite;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-
-/*
-h1:hover {
-	text-align: center;
+.my-word {
 	color: white;
-	transform: rotateY(90deg);
-	-webkit-transition: transform 0.8s ease-in-out;
-	transition: transform 90deg 0.8s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.my-freq {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /* css from w3schools  */
 input[type=text] {
   padding: 12px 24px;

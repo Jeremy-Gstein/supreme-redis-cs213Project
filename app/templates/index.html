@@ -10,9 +10,13 @@
 		<input class="search" type="text" name="search_term" placeholder="Search Word">
 		<button type="submit" value="Search"> submit </button>
 	</form>
+	<div class="my-word">
 	{% if search_result %}
 	<p>Word: {{ search_result[0] }}</p>
+	</div>
+	<div class="my-freq">
 	<p>Frequency: {{ search_result[1] }}</p>
 	{% endif %}
+	</div>
 </body>
 </html>
