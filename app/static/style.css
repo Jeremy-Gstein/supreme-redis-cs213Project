@@ -1,5 +1,9 @@
 body {
-	background-color: #121507;
+	/* image sourced from: https://www.hks.harvard.edu/sites/default/files/medium-hero-images/Article_Supreme-Court_Sen_1280x720_Phillip-Nelson.jpg */
+	background-image: url("supreme_court-2.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 p {
@@ -88,3 +92,4 @@ button:hover {
 	box-shadow: 0px 0px;
   	color: white; 
 }
+
