@@ -3,11 +3,10 @@
 
 ## Supreme Court 1937 - 1975
 - This is provided by Govinfo as a .zip containing all in a single file.
-- $WordCount
+- 26538264 Words.
 
 ## United States Satutes (Congress from 2003 - 2016)
 - Uses Govinfo xml format for each year. 
-- $Total:$WordCount
 - $Year:$WordCount
 
 ## main.rs takes a .txt file and segments it into 'sets' in redis
