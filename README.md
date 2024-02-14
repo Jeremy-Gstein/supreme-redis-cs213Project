@@ -5,7 +5,6 @@
 ![image](https://user-images.githubusercontent.com/66806528/235373556-2abc0584-2e53-42d2-a25c-9dee87ae1405.png)
 ---
 #### This is a work in progress (=
-View the Preview Application [Here!](https://cs213.j51b5.dev)
 ---
 ### Backend:
  - Redis Database as storage.
